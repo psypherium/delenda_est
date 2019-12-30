@@ -4,7 +4,7 @@
 	"Culture":[ "german" ],
 	"Region":[ "europe" ],
 	
-	"Emblem": "session/portraits/emblems/suebians.png",
+	"Emblem": "session/portraits/emblems/germans.png",
 	"History": ".",
 	"Music":[
 			{"File":"The_Road_Ahead.ogg", "Type":"peace"},
@@ -117,7 +117,7 @@
 	],
 	"WallSets":
 	[
-		"other/wallset_palisade",
+		"structures/wallset_palisade",
 		"structures/goth_wallset_stone"
 	],
 	"StartEntities":
@@ -168,6 +168,11 @@
 	],
 	"SkirmishReplacements":
 	{
+		"skirmish/units/default_hero_1": "",
+		"skirmish/units/default_hero_2": "",
+		"skirmish/units/default_hero_3": "",
+		"skirmish/units/default_hero_4": "",
+		"skirmish/units/default_hero_5": "",
 		"skirmish/units/default_infantry_melee_b": "units/goth_infantry_swordsman_b",
 		"skirmish/units/default_infantry_ranged_b": "units/goth_infantry_spearman_b",
 		"skirmish/units/special_starting_unit": "units/goth_support_wagon",

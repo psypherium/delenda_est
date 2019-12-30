@@ -7,7 +7,7 @@
     <Category>CultStatue</Category>
     <Distance>
       <FromClass>CultStatue</FromClass>
-      <MinDistance>40</MinDistance>
+      <MinDistance>30</MinDistance>
     </Distance>
   </BuildRestrictions>
   <Cost>
@@ -24,7 +24,7 @@
   </Footprint>
   <GarrisonHolder disable=""/>
   <Health>
-    <Max>500</Max>
+    <Max>1000</Max>
     <SpawnEntityOnDeath>decay|rubble/rubble_stone_3x3</SpawnEntityOnDeath>
   </Health>
   <Identity>
@@ -78,9 +78,7 @@
       <death>attack/destruction/building_collapse_large.xml</death>
     </SoundGroups>
   </Sound>
-  <TerritoryInfluence>
-    <Radius>30</Radius>
-  </TerritoryInfluence>
+  <TerritoryInfluence disable=""/>
   <VisualActor>
     <Actor>structures/athenians/cult_statue.xml</Actor>
     <FoundationActor>structures/carthaginians/fndn_wooden_tower.xml</FoundationActor>

@@ -14,7 +14,7 @@
   </Obstruction>
   <ProductionQueue>
     <Entities datatype="tokens">
-	  sueb_support_wagon
+	  units/sueb_infantry_clubman
     </Entities>
     <Technologies datatype="tokens">
 	  health_units_01
@@ -27,5 +27,6 @@
   </ProductionQueue>
   <VisualActor>
     <Actor>structures/germans/civic_center.xml</Actor>
+    <FoundationActor>structures/fndn_9x6.xml</FoundationActor>
   </VisualActor>
 </Entity>

@@ -165,7 +165,7 @@
 	],
 	"WallSets":
 	[
-		"other/wallset_palisade",
+		"structures/wallset_palisade",
 		"structures/kush_wallset_stone"
 	],
 	"StartEntities":
@@ -195,8 +195,7 @@
 		"special/formations/line_closed",
 		"special/formations/line_open",
 		"special/formations/column_closed",
-		"special/formations/wedge",
-		"special/formations/syntagma"
+		"special/formations/wedge"
 	],
 	"AINames":
 	[
@@ -217,6 +216,11 @@
 	],
 	"SkirmishReplacements":
 	{
+		"skirmish/units/default_hero_1": "units/kush_hero_amanirenas",
+		"skirmish/units/default_hero_2": "units/kush_hero_piye",
+		"skirmish/units/default_hero_3": "units/kush_hero_nastasen",
+		"skirmish/units/default_hero_4": "units/kush_hero_arakamani",
+		"skirmish/units/default_hero_5": "units/kush_hero_amanitore",
 		"skirmish/units/default_infantry_melee_b": "units/kush_infantry_spearman_b",
 		"skirmish/units/default_infantry_ranged_b": "units/kush_infantry_archer_b",
 		"skirmish/structures/default_house_10": "structures/{civ}_house",

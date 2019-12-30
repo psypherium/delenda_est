@@ -19,6 +19,7 @@
     <Civ>gaia</Civ>
 	<GenericName>Horse</GenericName>
     <SpecificName>Equus ferus caballus</SpecificName>
+	<SelectionGroupName>gaia/fauna_horse</SelectionGroupName>
     <VisibleClasses datatype="tokens">
 	  Horse
 	</VisibleClasses>
@@ -29,6 +30,14 @@
     <Anchor>pitch</Anchor>
   </Position>
   <ResourceSupply disable=""/>
+  <Selectable>
+    <Overlay>
+      <Texture>
+        <MainTexture>ellipse/128x256.png</MainTexture>
+        <MainTextureMask>ellipse/128x256_mask.png</MainTextureMask>
+      </Texture>
+    </Overlay>
+  </Selectable>
   <Sound>
     <SoundGroups>
       <select>actor/fauna/animal/horse_select.xml</select>
@@ -46,6 +55,9 @@
   <UnitMotion>
     <WalkSpeed op="mul">1.25</WalkSpeed>
   </UnitMotion>
+  <Vision>
+    <Range>8</Range>
+  </Vision>
   <VisualActor>
     <Actor>fauna/horse.xml</Actor>
   </VisualActor>

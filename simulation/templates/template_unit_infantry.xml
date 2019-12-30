@@ -2,7 +2,7 @@
 <Entity parent="template_unit">
   <Attack>
     <Capture>
-      <Value>5</Value>
+      <Capture>5</Capture>
       <MaxRange>4</MaxRange>
       <RepeatTime>2000</RepeatTime>
 	  <RestrictedClasses datatype="tokens">CaptureResistant</RestrictedClasses>
@@ -40,7 +40,7 @@
       structures/{civ}_shipyard
       structures/{civ}_kennel
       structures/{civ}_blacksmith
-      other/wallset_palisade
+      structures/wallset_palisade
       structures/{civ}_wallset_palisade
       structures/{civ}_wallset_siege
       structures/{civ}_wallset_stone
@@ -48,7 +48,7 @@
       structures/{civ}_apadana_coin
       structures/{civ}_prytaneion
       structures/{civ}_workshop
-      units/{civ}_mechanical_siege_catapult_unpacked
+      units/{civ}_siege_catapult_unpacked
       structures/{civ}_army_camp
       structures/{civ}_fortress
       structures/{civ}_wonder
@@ -122,18 +122,19 @@
   </Selectable>
   <Sound>
     <SoundGroups>
-      <select>voice/{lang}/civ/civ_{gender}_select.xml</select>
-      <order_walk>voice/{lang}/civ/civ_{gender}_walk.xml</order_walk>
-      <order_attack>voice/{lang}/civ/civ_{gender}_attack.xml</order_attack>
-      <order_gather>voice/{lang}/civ/civ_{gender}_gather.xml</order_gather>
-      <order_repair>voice/{lang}/civ/civ_{gender}_repair.xml</order_repair>
-      <order_garrison>voice/{lang}/civ/civ_{gender}_garrison.xml</order_garrison>
+      <select>voice/{lang}/civ/civ_{phenotype}_select.xml</select>
+      <order_walk>voice/{lang}/civ/civ_{phenotype}_walk.xml</order_walk>
+      <order_attack>voice/{lang}/civ/civ_{phenotype}_attack.xml</order_attack>
+      <order_gather>voice/{lang}/civ/civ_{phenotype}_gather.xml</order_gather>
+      <order_repair>voice/{lang}/civ/civ_{phenotype}_repair.xml</order_repair>
+	  <order_build>voice/{lang}/civ/civ_{phenotype}_build.xml</order_build>
+      <order_garrison>voice/{lang}/civ/civ_{phenotype}_garrison.xml</order_garrison>
       <walk>actor/human/movement/walk.xml</walk>
       <run>actor/human/movement/run.xml</run>
       <attack_impact_ranged>attack/impact/impact_arrow_all.xml</attack_impact_ranged>
       <attack_melee>attack/weapon/sword.xml</attack_melee>
       <attack_ranged>attack/weapon/arrowfly.xml</attack_ranged>
-      <death>actor/human/death/{gender}_death.xml</death>
+      <death>actor/human/death/{phenotype}_death.xml</death>
       <build>resource/construction/con_wood.xml</build>
       <gather_fruit>resource/foraging/forage_leaves.xml</gather_fruit>
       <gather_grain>resource/farming/farm.xml</gather_grain>

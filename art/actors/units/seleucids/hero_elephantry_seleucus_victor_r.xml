@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="Base">
+      <mesh>skeletal/new/m_armor_tunic_long.dae</mesh>
+      <props>
+        <prop actor="props/units/weapons/sarissa.xml" attachpoint="weapon_R"/>
+        <prop actor="props/units/heads/new/head_alexander.xml" attachpoint="head"/>
+        <prop actor="props/units/capes/rider/elephant_driver_asian.xml" attachpoint="root"/>
+        <prop actor="props/units/helmets/hele_phrygian_e1.xml" attachpoint="helmet"/>
+      </props>
+      <textures>
+        <texture file="skeletal/hero.png" name="baseTex"/>
+        <texture file="skeletal/hero_norm.png" name="normTex"/>
+        <texture file="skeletal/hero_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant file="biped/rider/elephantry/turret_idle.xml"/>
+    <variant file="biped/attack_capture.xml"/>
+    <variant file="biped/rider/elephantry/asian_turret_death.xml">
+      <props>
+        <prop actor="props/units/capes/rider/elephant_driver_asian.xml" attachpoint="root"/>
+      </props>
+    </variant>
+  </group>
+  <material>player_trans_parallax_spec.xml</material>
+</actor>

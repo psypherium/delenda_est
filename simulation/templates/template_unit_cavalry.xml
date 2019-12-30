@@ -7,7 +7,7 @@
   </Armour>
   <Attack>
     <Capture>
-      <Value>5</Value>
+      <Capture>5</Capture>
       <MaxRange>4</MaxRange>
       <RepeatTime>2000</RepeatTime>
 	  <RestrictedClasses datatype="tokens">CaptureResistant</RestrictedClasses>
@@ -85,20 +85,18 @@
   <Selectable>
     <Overlay>
       <Texture>
-        <MainTexture>circle/128x128.png</MainTexture>
-        <MainTextureMask>circle/128x128_mask.png</MainTextureMask>
-        <!--<MainTexture>arrow/256x256.png</MainTexture>
-       <MainTextureMask>arrow/256x256_mask.png</MainTextureMask>-->
+        <MainTexture>ellipse/128x256.png</MainTexture>
+        <MainTextureMask>ellipse/128x256_mask.png</MainTextureMask>
       </Texture>
     </Overlay>
   </Selectable>
   <Sound>
     <SoundGroups>
-      <select>voice/{lang}/civ/civ_{gender}_select.xml</select>
-      <order_walk>voice/{lang}/civ/civ_{gender}_walk.xml</order_walk>
-      <order_attack>voice/{lang}/civ/civ_{gender}_attack.xml</order_attack>
-      <order_gather>voice/{lang}/civ/civ_{gender}_gather.xml</order_gather>
-      <order_garrison>voice/{lang}/civ/civ_{gender}_garrison.xml</order_garrison>
+      <select>voice/{lang}/civ/civ_{phenotype}_select.xml</select>
+      <order_walk>voice/{lang}/civ/civ_{phenotype}_walk.xml</order_walk>
+      <order_attack>voice/{lang}/civ/civ_{phenotype}_attack.xml</order_attack>
+      <order_gather>voice/{lang}/civ/civ_{phenotype}_gather.xml</order_gather>
+      <order_garrison>voice/{lang}/civ/civ_{phenotype}_garrison.xml</order_garrison>
 	  <attack_impact_ranged>attack/impact/impact_arrow_all.xml</attack_impact_ranged>
 	  <attack_melee>attack/weapon/sword.xml</attack_melee>
 	  <attack_ranged>attack/weapon/arrowfly.xml</attack_ranged>

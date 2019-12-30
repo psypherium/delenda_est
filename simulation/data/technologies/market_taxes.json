@@ -1,15 +1,15 @@
 {
 	"genericName": "Commerce Taxes",
 	"description": ".",
-	"cost": {"glory": 500},
+	"cost": {"glory": 800},
 	"requirements": {"tech": "phase_city"},
 	"requirementsTooltip": "Unlocked in City Phase.",
 	"icon": "coins.png",
 	"researchTime": 40,
-	"tooltip": "Each Market building adds a trickle of 200 coin per minute to the player's treasury.",
+	"tooltip": "Market Vendors +100% coin tax rate.",
 	"modifications": [
-		{"value": "ResourceTrickle/Rates/coin", "add": 20}
+		{"value": "ResourceTrickle/Rates/coin", "multiply": 2.0}
 	],
-	"affects": ["LandTrade"],
+	"affects": ["Vendor"],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
 }

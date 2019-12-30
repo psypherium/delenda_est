@@ -14,17 +14,20 @@
 		{"value": "Vision/Range",               	"multiply": 1.1,  "affects": "Ranged"  },
 		{"value": "Attack/Ranged/Damage/Spread",    "multiply": 0.90, "affects": "Ranged"  },
 		{"value": "Attack/Melee/Damage/Hack",       "multiply": 1.1,  "affects": "Melee"   },
-		{"value": "Attack/Capture/Value",       	"multiply": 1.1                        },
+		{"value": "Attack/Capture/Capture",       	"multiply": 1.1                        },
 		{"value": "Heal/Range",                 	"multiply": 1.2,  "affects": "Healer"  },
 		{"value": "Vision/Range",               	"multiply": 1.2,  "affects": "Healer"  },
 		{"value": "Heal/HP",                    	"multiply": 1.2,  "affects": "Healer"  },
-		{"value": "Cost/Resources/food",        	"multiply": 1.1},
-		{"value": "Cost/Resources/wood",        	"multiply": 1.1},
-		{"value": "Cost/Resources/stone",       	"multiply": 1.1},
-		{"value": "Cost/Resources/metal",       	"multiply": 1.1},
-		{"value": "Cost/Resources/coin",        	"multiply": 1.2},
-		{"value": "Cost/Resources/glory",       	"multiply": 1.2},
-		{"value": "Cost/BuildTime", 				"multiply": 1.1}
+		{"value": "Cost/Resources/food",			"add": 5,  		  "affects": "Citizen Soldier"	},
+		{"value": "Cost/Resources/wood",			"add": 5,  		  "affects": "Archer"   		},
+		{"value": "Cost/Resources/wood",			"add": 5,  		  "affects": "Spear"    		},
+		{"value": "Cost/Resources/wood",			"add": 5,  		  "affects": "Javelin"  		},
+		{"value": "Cost/Resources/wood",			"add": 5,  		  "affects": "Crossbow" 		},
+		{"value": "Cost/Resources/metal",			"add": 5,  		  "affects": "Sword"    		},
+		{"value": "Cost/Resources/metal",			"add": 5,  		  "affects": "Sling"    		},
+		{"value": "Cost/Resources/coin",			"add": 10,  	  "affects": "Mercenary"		},
+		{"value": "Cost/Resources/glory",			"add": 5,  		  "affects": "Healer"   		},
+		{"value": "Cost/BuildTime",					"add": 2,  		  "affects": "Citizen"			}
 	],
 	"affects": ["Elite Unit"]
 }

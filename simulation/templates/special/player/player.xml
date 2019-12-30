@@ -25,6 +25,7 @@
       <Catapult>0</Catapult>
 	  <Chanakya>1</Chanakya>
 	  <CivicCenter>1</CivicCenter>
+	  <Clubman>20</Clubman>
       <Council>1</Council>
 	  <Corral>0</Corral>
 	  <CultStatue>1</CultStatue>
@@ -44,6 +45,7 @@
       <Lighthouse>1</Lighthouse>
 	  <MaceElephant>0</MaceElephant>
 	  <Market>1</Market>
+	  <MarketStall>0</MarketStall>
 	  <Mars>1</Mars>
 	  <MercCelt>100</MercCelt>
 	  <Mercenary>20</Mercenary>
@@ -74,6 +76,7 @@
 	  <Temple_Amun>1</Temple_Amun>
 	  <Tenement>2</Tenement>
       <Theater>1</Theater>
+      <Thorakites>20</Thorakites>
 	  <Vesta>1</Vesta>
 	  <Walls>100</Walls>
       <WarDog>0</WarDog>
@@ -96,6 +99,9 @@
 	  <MaceElephant>
 	    <Fortress>5</Fortress>
 	  </MaceElephant>
+	  <MarketStall>
+	    <Market>5</Market>
+      </MarketStall>
 	  <MolossianDog>
 	    <House>1</House>
 	  </MolossianDog>
@@ -209,6 +215,29 @@
     </Rates>
     <Interval>1000</Interval>
   </ResourceTrickle>
-  <StatisticsTracker/>
+  <StatisticsTracker>
+	<!-- The summary screen and lobby rankings expect these classes, but additional classes may be added -->
+	<UnitClasses datatype="tokens">
+		Infantry
+		Worker
+		FemaleCitizen
+		Cavalry
+		Champion
+		Hero
+		Siege
+		Ship
+		Domestic
+		Trader
+	</UnitClasses>
+	<StructureClasses datatype="tokens">
+		House
+		Economic
+		Outpost
+		Military
+		Fortress
+		CivCentre
+		Wonder
+	</StructureClasses>
+  </StatisticsTracker>
   <TechnologyManager/>
 </Entity>

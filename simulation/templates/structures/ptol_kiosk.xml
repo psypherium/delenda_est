@@ -9,8 +9,8 @@
   </Health>
   <Identity>
     <Civ>ptol</Civ>
+    <GenericName>Sanctuary Kiosk</GenericName>
     <SpecificName>ḥwt-nṯr</SpecificName>
-    <History>?</History>
   </Identity>
   <Obstruction>
     <Static width="20" depth="21"/>
@@ -24,7 +24,7 @@
     </Technologies>
   </ProductionQueue>
   <VisualActor>
-    <Actor>structures/ptolemies/temple.xml</Actor>
+    <Actor>structures/ptolemies/kiosk.xml</Actor>
     <FoundationActor>structures/fndn_4x4.xml</FoundationActor>
   </VisualActor>
 </Entity>

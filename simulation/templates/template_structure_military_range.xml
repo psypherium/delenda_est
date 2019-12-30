@@ -26,17 +26,17 @@
     <LoadingRange>2</LoadingRange>
   </GarrisonHolder>
   <Health>
-    <Max>1000</Max>
+    <Max>2000</Max>
     <SpawnEntityOnDeath>decay|rubble/rubble_stone_5x5</SpawnEntityOnDeath>
   </Health>
   <Identity>
     <GenericName>Archery Range</GenericName>
     <Tooltip>Train ranged citizen-infantry. Research training improvements for ranged infantry.</Tooltip>
     <Icon>structures/range.png</Icon>
-	<Classes datatype="tokens">Archery</Classes>
+	<Classes datatype="tokens">ArcheryRange</Classes>
     <VisibleClasses datatype="tokens">
 	  Village
-	  ArcheryRange
+	  Range
 	</VisibleClasses>
     <RequiredTechnology>phase_village</RequiredTechnology>
   </Identity>

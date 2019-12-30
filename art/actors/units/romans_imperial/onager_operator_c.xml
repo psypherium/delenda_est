@@ -5,12 +5,12 @@
     <variant frequency="100" name="Onager operator">
       <mesh>skeletal/new/m_armor_tunic_short.dae</mesh>
       <animations>
-        <animation file="biped/new/onager_idle_c.dae" name="Idle" speed="100"/>
-        <animation event="0.145" load="0.05" file="biped/new/onager_attack_c.dae" name="attack_ranged" speed="100"/>
+        <animation file="biped/infantry/siege_operators/onager_idle_c.dae" name="Idle" speed="100"/>
+        <animation event="0.145" file="biped/infantry/siege_operators/onager_attack_c.dae" load="0.05" name="attack_ranged" speed="100"/>
       </animations>
       <props>
         <prop actor="props/units/heads/new/head_hele_b.xml" attachpoint="head"/>
-        <prop actor="props/units/helmets/rome_helmet_imperial_gallic_bronze.xml" attachpoint="helmet"/>
+        <prop actor="props/units/helmets/rome_gallic_type_i.xml" attachpoint="helmet"/>
       </props>
       <textures>
         <texture file="skeletal/imp_infantry_swordsman_b.png" name="baseTex"/>

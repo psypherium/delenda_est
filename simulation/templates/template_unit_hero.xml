@@ -7,7 +7,7 @@
   </Armour>
   <Attack> 
     <Capture>
-      <Value>20</Value> 
+      <Capture>20</Capture>
       <MaxRange>4</MaxRange>
       <RepeatTime>1000</RepeatTime>
 	  <RestrictedClasses datatype="tokens">CaptureResistant</RestrictedClasses>
@@ -65,7 +65,7 @@
       <attack_impact_ranged>attack/impact/impact_arrow_all.xml</attack_impact_ranged>
       <attack_melee>attack/weapon/sword.xml</attack_melee>
       <attack_ranged>attack/weapon/arrowfly.xml</attack_ranged>
-      <death>actor/human/death/{gender}_death.xml</death>
+      <death>actor/human/death/{phenotype}_death.xml</death>
     </SoundGroups>
   </Sound>
   <TrainingRestrictions>

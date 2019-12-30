@@ -2,14 +2,45 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant file="biped/base_hoplite.xml">
+    <variant>
       <mesh>skeletal/new/m_armor_tunic_short.dae</mesh>
       <props>
         <prop actor="props/units/shields/epir_chaonian.xml" attachpoint="shield_arm"/>
         <prop actor="props/units/weapons/spear_hoplite.xml" attachpoint="weapon_R"/>
         <prop actor="props/units/heads/new/head_hele_b.xml" attachpoint="head"/>
-        <prop actor="props/units/helmets/sele_thracian_red.xml" attachpoint="helmet"/>
         <prop actor="props/units/capes/hoplite.xml" attachpoint="root"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="Helmet Thracian B2">
+      <props>
+        <prop actor="props/units/helmets/hele_thracian_b2.xml" attachpoint="helmet"/>
+      </props>
+    </variant>
+    <variant frequency="2" name="Helmet Thracian B2 Crested">
+      <props>
+        <prop actor="props/units/helmets/hele_thracian_b2_crested.xml" attachpoint="helmet"/>
+      </props>
+    </variant>
+    <variant frequency="1" name="Helmet Thracian B3 Crested">
+      <props>
+        <prop actor="props/units/helmets/hele_thracian_b3.xml" attachpoint="helmet"/>
+      </props>
+    </variant>
+    <variant frequency="2" name="Helmet Thracian B3 Crested">
+      <props>
+        <prop actor="props/units/helmets/hele_thracian_b3_crested.xml" attachpoint="helmet"/>
+      </props>
+    </variant>
+    <variant frequency="1" name="Helmet Thracian S2">
+      <props>
+        <prop actor="props/units/helmets/hele_thracian_s2.xml" attachpoint="helmet"/>
+      </props>
+    </variant>
+    <variant frequency="1" name="Helmet Thracian S3">
+      <props>
+        <prop actor="props/units/helmets/hele_thracian_s3.xml" attachpoint="helmet"/>
       </props>
     </variant>
   </group>
@@ -19,26 +50,27 @@
         <texture file="skeletal/mace_bronzeshield_2.png" name="baseTex"/>
       </textures>
     </variant>
+    <variant frequency="1" name="Armour-Linen-Linothorax-1d">
+      <textures>
+        <texture file="skeletal/mace_linothorax_1_d.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="Armour-Bronze-Lamellar">
+      <textures>
+        <texture file="skeletal/mace_lamellar_1_a.png" name="baseTex"/>
+      </textures>
+    </variant>
   </group>
   <group>
-    <variant frequency="1" name="Idle"/>
+    <variant file="biped/base_hoplite.xml"/>
+    <variant file="biped/formations/phalanx_front.xml"/>
+    <variant file="biped/formations/phalanx_mid.xml"/>
+    <variant file="biped/formations/phalanx_back.xml"/>
     <variant file="biped/attack_capture.xml"/>
     <variant file="biped/attack_slaughter.xml"/>
-    <variant file="biped/gather_tree.xml"/>
-    <variant file="biped/gather_grain.xml"/>
-    <variant file="biped/gather_fruit.xml"/>
-    <variant file="biped/gather_meat.xml"/>
-    <variant file="biped/gather_rock.xml"/>
-    <variant file="biped/gather_ore.xml"/>
-    <variant file="biped/gather_ruins.xml"/>
     <variant file="biped/gather_praise.xml"/>
     <variant file="biped/build.xml"/>
     <variant file="biped/build_farm.xml"/>
-    <variant file="biped/carry_food.xml"/>
-    <variant file="biped/carry_meat.xml"/>
-    <variant file="biped/carry_wood.xml"/>
-    <variant file="biped/carry_stone.xml"/>
-    <variant file="biped/carry_metal.xml"/>
     <variant file="biped/hoplite_death.xml"/>
   </group>
   <material>player_trans.xml</material>

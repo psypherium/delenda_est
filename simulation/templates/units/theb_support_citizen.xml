@@ -3,12 +3,12 @@
   <Identity>
     <Civ>theb</Civ>
 	<Lang>greek</Lang>
-    <SpecificName>Polítis Thēbaîos</SpecificName>
+    <SpecificName>Polites Thēbaios</SpecificName>
     <GenericName>Theban Citizen</GenericName>
     <Icon>units/athen_support_citizen.png</Icon>
     <SelectionGroupName>units/{civ}_support_citizen</SelectionGroupName>
   </Identity>
   <VisualActor>
-    <Actor>units/athenians/citizen.xml</Actor>
+    <Actor>units/athenians/citizen_{phenotype}.xml</Actor>
   </VisualActor>
 </Entity>
