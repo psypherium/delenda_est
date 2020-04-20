@@ -24,13 +24,13 @@
     <Height>8.0</Height>
   </Footprint>
   <Health>
-    <Max>400</Max>
+    <Max>200</Max>
     <SpawnEntityOnDeath>decay|rubble/rubble_stone_2x2</SpawnEntityOnDeath>
   </Health>
   <Identity>
     <GenericName>Market Vendor</GenericName>
     <Tooltip>Economic activity brings a trickle of Coin resource through taxes.</Tooltip>
-    <Classes datatype="tokens">-ConquestCritical</Classes>
+    <Classes datatype="tokens">-ConquestCritical BarterMarket</Classes>
     <VisibleClasses datatype="tokens">Town Vendor TaxPayer</VisibleClasses>
     <Icon>gaia/special_treasure_coin.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>

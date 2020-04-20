@@ -1,0 +1,9 @@
+{
+	"type": "garrisonedUnits",
+	"affects": ["Unit"],
+	"modifications": [
+		{ "value": "Promotion/TrickleRate", "add": 0.2 }
+	],
+	"auraName": "Standardized Training",
+	"auraDescription": "Citizen Soldiers gain +1 experience every 5 seconds while garrisoned inside Barracks."
+}

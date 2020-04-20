@@ -8581,37 +8581,37 @@
 			<Orientation y="-3.0337"/>
 		</Entity>
 		<Entity uid="1884">
-			<Template>gaia/fauna_bear</Template>
+			<Template>gaia/fauna_bear_brown</Template>
 			<Player>0</Player>
 			<Position x="434.8324" z="258.14908"/>
 			<Orientation y="2.35621"/>
 		</Entity>
 		<Entity uid="1885">
-			<Template>gaia/fauna_bear</Template>
+			<Template>gaia/fauna_bear_brown</Template>
 			<Player>0</Player>
 			<Position x="384.1142" z="916.80372"/>
 			<Orientation y="2.35621"/>
 		</Entity>
 		<Entity uid="1886">
-			<Template>gaia/fauna_bear</Template>
+			<Template>gaia/fauna_bear_brown</Template>
 			<Player>0</Player>
 			<Position x="692.50287" z="672.88428"/>
 			<Orientation y="-1.87885"/>
 		</Entity>
 		<Entity uid="1887">
-			<Template>gaia/fauna_bear</Template>
+			<Template>gaia/fauna_bear_brown</Template>
 			<Player>0</Player>
 			<Position x="565.56873" z="806.92493"/>
 			<Orientation y="2.35621"/>
 		</Entity>
 		<Entity uid="1888">
-			<Template>gaia/fauna_bear</Template>
+			<Template>gaia/fauna_bear_brown</Template>
 			<Player>0</Player>
 			<Position x="580.76111" z="241.47385"/>
 			<Orientation y="0.77546"/>
 		</Entity>
 		<Entity uid="1889">
-			<Template>gaia/fauna_bear</Template>
+			<Template>gaia/fauna_bear_brown</Template>
 			<Player>0</Player>
 			<Position x="713.26771" z="186.88773"/>
 			<Orientation y="-2.69391"/>
@@ -22348,7 +22348,7 @@
 			<Actor seed="5834"/>
 		</Entity>
 		<Entity uid="4681">
-			<Template>skirmish/structures/default_stoa</Template>
+			<Template>skirmish/structures/special_starting_structure</Template>
 			<Player>1</Player>
 			<Position x="311.50281" z="824.73023"/>
 			<Orientation y="2.35621"/>
@@ -22356,7 +22356,7 @@
 			<Actor seed="51402"/>
 		</Entity>
 		<Entity uid="4682">
-			<Template>skirmish/structures/default_stoa</Template>
+			<Template>skirmish/structures/special_starting_structure</Template>
 			<Player>2</Player>
 			<Position x="287.18982" z="200.29917"/>
 			<Orientation y="-0.73874"/>

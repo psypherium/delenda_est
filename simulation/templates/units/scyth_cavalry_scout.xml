@@ -3,11 +3,11 @@
   <Identity>
     <Civ>scyth</Civ>
 	<GenericName>Scout Cavalry</GenericName>
-    <SpecificName>Próskopos</SpecificName>
+    <SpecificName>Scout Cavalry</SpecificName>
     <History>.</History>
     <Icon>units/xion_cav_swordsman.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>units/xiongnu/cavalry_scout.xml</Actor>
+    <Actor>units/scythians/cavalry_scout_m.xml</Actor>
   </VisualActor>
 </Entity>

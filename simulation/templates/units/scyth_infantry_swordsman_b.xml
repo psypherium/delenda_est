@@ -56,13 +56,13 @@
   <Identity>
     <Civ>scyth</Civ>
     <SelectionGroupName>units/scyth_infantry_swordsman</SelectionGroupName>
-    <GenericName>Scythian Axeman</GenericName>
+    <GenericName>Saka Axeman</GenericName>
     <Icon>units/xion_infantry_swordsman.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/scyth_infantry_swordsman_a</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>units/xiongnu/infantry_axeman_b.xml</Actor>
+    <Actor>units/scythians/infantry_axeman_b.xml</Actor>
   </VisualActor>
 </Entity>

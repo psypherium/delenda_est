@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_structure_military_blacksmith">
+<Entity parent="template_structure_military_forge">
   <BuildRestrictions>
     <Territory>own neutral ally enemy</Territory>
   </BuildRestrictions>
@@ -12,9 +12,6 @@
   </Footprint>
   <Identity>
     <Civ>scyth</Civ>
-    <VisibleClasses datatype="tokens">
-	  SiegeWorkshop
-	</VisibleClasses>
   </Identity>
   <Obstruction>
     <Static width="25.0" depth="25.0"/>
@@ -23,7 +20,6 @@
     <BatchTimeModifier>0.8</BatchTimeModifier>
     <Entities datatype="tokens">
       units/scyth_support_wagon
-	  units/scyth_siege_ram
     </Entities>
     <Technologies datatype="tokens">
 	  persians/pair_01
@@ -39,12 +35,6 @@
   </ProductionQueue>
   <TerritoryDecay disable=""/>
   <TerritoryInfluence disable=""/>
-  <Upgrade>
-    <BlacksmithPacked>
-      <Entity>structures/scyth_blacksmith_packed</Entity>
-      <Time>20</Time>
-    </BlacksmithPacked>
-  </Upgrade>
   <VisualActor>
     <ConstructionPreview disable=""/>
     <Actor>structures/xiongnu/blacksmith.xml</Actor>

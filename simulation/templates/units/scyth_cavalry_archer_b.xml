@@ -3,13 +3,13 @@
   <Identity>
     <Civ>scyth</Civ>
     <SelectionGroupName>units/scyth_cavalry_archer</SelectionGroupName>
-    <GenericName>Scythian Archer Cavalry</GenericName>
+    <GenericName>Dahae Cavalry Archer</GenericName>
     <Icon>units/xion_cav_archer.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/scyth_cavalry_archer_a</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>units/xiongnu/cavalry_archer_b_m.xml</Actor>
+    <Actor>units/scythians/cavalry_archer_b_m.xml</Actor>
   </VisualActor>
 </Entity>

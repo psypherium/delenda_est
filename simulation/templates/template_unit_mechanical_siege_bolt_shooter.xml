@@ -14,8 +14,8 @@
       </Damage>
       <MaxRange>60.0</MaxRange>
       <MinRange>8.0</MinRange>
-      <PrepareTime>1000</PrepareTime>
-      <RepeatTime>2000</RepeatTime>
+      <PrepareTime>2000</PrepareTime>
+      <RepeatTime>4000</RepeatTime>
       <Delay>0</Delay>
       <Splash>
         <Damage>
@@ -31,6 +31,7 @@
         <Speed>120.0</Speed>
         <Spread>2.0</Spread>
         <Gravity>9.81</Gravity>
+		<FriendlyFire>false</FriendlyFire>
         <LaunchPoint y="3"/>
       </Projectile>
 	  <RestrictedClasses datatype="tokens">MercenaryCamp</RestrictedClasses>

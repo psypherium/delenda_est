@@ -21,7 +21,6 @@
   </Obstruction>
   <ProductionQueue>
     <Entities datatype="tokens">
-      units/{civ}_champion_cavalry
       gaia/fauna_sheep
       gaia/fauna_pig
   	</Entities>
@@ -39,12 +38,6 @@
   </ProductionQueue>
   <TerritoryDecay disable=""/>
   <TerritoryInfluence disable=""/>
-  <Upgrade>
-    <Pack>
-      <Entity>structures/scyth_stable_packed</Entity>
-      <Time>20</Time>
-    </Pack>
-  </Upgrade>
   <VisualActor>
     <ConstructionPreview disable=""/>
     <Actor>structures/xiongnu/corral.xml</Actor>
